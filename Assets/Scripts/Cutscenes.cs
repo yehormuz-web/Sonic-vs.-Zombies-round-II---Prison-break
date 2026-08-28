@@ -5,7 +5,7 @@ using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
 using UnityEngine.TextCore.Text;
 
-public class computer : MonoBehaviour
+public class Cutscenes : MonoBehaviour
 {
     public int diaulognumber = 0;
     public bool cutsceneplay = false;
@@ -24,23 +24,10 @@ public class computer : MonoBehaviour
     {
         if (playonawake)
             director.Play();
-        if (LanguageHandler.Ukrainianselected)
+        if (languageswitchhandler.Ukrainianselected)
             Textbox.font = UkrainianFont;
     }
-    public void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("Collided");
-        if (collision.gameObject.tag == "Player")
-        {
-            collision.gameObject.GetComponent<playerMovement>().rb.linearVelocity=Vector2.zero;
-            collision.gameObject.GetComponent<playerMovement>().enabled = false;
-            director.Play();
-            foreach (GameObject obj in objectstodisable)
-            {
-                obj.SetActive(false);
-            }
-        }
-    }
+
 
     public void diaulog1()
     {
@@ -48,9 +35,9 @@ public class computer : MonoBehaviour
             alldiaulogtextboxes[diaulognumber - 1].SetActive(false);
         alldiaulogtextboxes[diaulognumber].SetActive(true);
         Textbox.color = alldiaulogcolors[diaulognumber];
-            if (LanguageHandler.Englishselected)
+            if (languageswitchhandler.Englishselected)
                 Textbox.text = alldiaulog[diaulognumber];
-            else if (LanguageHandler.Ukrainianselected)
+            else if (languageswitchhandler.Ukrainianselected)
                 Textbox.text = alldiaulogUkrainian[diaulognumber];
         else
             Textbox.text = alldiaulog[diaulognumber];

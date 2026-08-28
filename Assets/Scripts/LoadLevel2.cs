@@ -1,16 +1,17 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadLevel2 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public string leveltoload;
+    public void loadlevel2()
     {
-        
-    }
+        SceneManager.LoadScene(leveltoload);
+    }    
+
+    
+
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
