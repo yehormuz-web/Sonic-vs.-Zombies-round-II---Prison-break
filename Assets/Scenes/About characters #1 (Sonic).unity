@@ -634,6 +634,7 @@ GameObject:
   - component: {fileID: 774082546}
   - component: {fileID: 774082545}
   - component: {fileID: 774082544}
+  - component: {fileID: 774082547}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -705,7 +706,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 774082545}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 102900000, guid: 4fc27c2095189684db6cf835b8313a9a, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &774082545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,6 +757,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774082542}
   m_CullTransparentMesh: 1
+--- !u!114 &774082547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774082542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf826124e1ade5488b8c60697c3faae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leveltoload: About characters #2 (Amy)
 --- !u!1 &776587242
 GameObject:
   m_ObjectHideFlags: 0
@@ -1303,6 +1329,7 @@ GameObject:
   - component: {fileID: 1202169573}
   - component: {fileID: 1202169572}
   - component: {fileID: 1202169571}
+  - component: {fileID: 1202169574}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1374,7 +1401,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1202169572}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 102900000, guid: 9e2e789a3e424bc42b7d4e39af72e492, type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1202169572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1413,6 +1452,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202169569}
   m_CullTransparentMesh: 1
+--- !u!114 &1202169574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1202169569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf826124e1ade5488b8c60697c3faae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leveltoload: About characters #2 (Amy)
 --- !u!1 &1263227720
 GameObject:
   m_ObjectHideFlags: 0
