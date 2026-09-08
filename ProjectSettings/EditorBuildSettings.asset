@@ -44,6 +44,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/About characters #10 (Zombiefier).unity
     guid: 9e2e789a3e424bc42b7d4e39af72e492
+  - enabled: 1
+    path: Assets/Scenes/Scene 1.unity
+    guid: bc43cfcfc72a9824985e5f9e0159394e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
