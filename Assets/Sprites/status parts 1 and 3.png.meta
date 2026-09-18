@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: 8b8dbd30c634c614b91b5f239bc69ee1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1823887791598756795
+    second: status parts 1 and 3_0
+  - first:
+      213: 4625160616544020832
+    second: status parts 1 and 3_1
+  - first:
+      213: 524566413220498299
+    second: status parts 1 and 3_2
+  - first:
+      213: -7732776324534732108
+    second: status parts 1 and 3_3
+  - first:
+      213: -4189854480517155687
+    second: status parts 1 and 3_4
+  - first:
+      213: -3905324680743651700
+    second: status parts 1 and 3_5
+  - first:
+      213: -3271293970835742219
+    second: status parts 1 and 3_6
+  - first:
+      213: 2090395258586699365
+    second: status parts 1 and 3_7
+  - first:
+      213: -7058807455185083304
+    second: status parts 1 and 3_8
+  - first:
+      213: 2766737728072483938
+    second: status parts 1 and 3_9
+  - first:
+      213: 5477388591802298699
+    second: status parts 1 and 3_10
+  - first:
+      213: -5322481987237863930
+    second: status parts 1 and 3_11
+  - first:
+      213: -3934450144124184590
+    second: status parts 1 and 3_12
+  - first:
+      213: -6454928027442735738
+    second: status parts 1 and 3_13
+  - first:
+      213: -6180448770702628925
+    second: status parts 1 and 3_14
+  - first:
+      213: -1846437872156558823
+    second: status parts 1 and 3_15
+  - first:
+      213: -5614905662620930981
+    second: status parts 1 and 3_16
+  - first:
+      213: -1704026365817808626
+    second: status parts 1 and 3_17
+  - first:
+      213: 6579641777769753205
+    second: status parts 1 and 3_18
+  - first:
+      213: 6109056482936900869
+    second: status parts 1 and 3_19
+  - first:
+      213: 3038957548307811869
+    second: status parts 1 and 3_20
+  - first:
+      213: -5240881076732151919
+    second: status parts 1 and 3_21
+  - first:
+      213: -2500223837340406910
+    second: status parts 1 and 3_22
+  - first:
+      213: -320692836481241928
+    second: status parts 1 and 3_23
+  - first:
+      213: 2295448224344422776
+    second: status parts 1 and 3_24
+  - first:
+      213: 8274943999581002518
+    second: status parts 1 and 3_25
+  - first:
+      213: -9065375459556414304
+    second: status parts 1 and 3_26
+  - first:
+      213: -4324653196557020442
+    second: status parts 1 and 3_27
+  - first:
+      213: 4598183134228816189
+    second: status parts 1 and 3_28
+  - first:
+      213: -7476376016538080419
+    second: status parts 1 and 3_29
+  - first:
+      213: -6338480947259553
+    second: status parts 1 and 3_30
+  - first:
+      213: 851027982465052749
+    second: status parts 1 and 3_31
+  - first:
+      213: 1900660647725534892
+    second: status parts 1 and 3_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: status parts 1 and 3_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c959787bf30b6e0800000000000000
+      internalID: -1823887791598756795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069ab3a531fdf2040800000000000000
+      internalID: 4625160616544020832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_2
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bcb11af52a74700800000000000000
+      internalID: 524566413220498299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_3
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba7e8027e8afa490800000000000000
+      internalID: -7732776324534732108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994323c7c85aad5c0800000000000000
+      internalID: -4189854480517155687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8675b7e4ef7dc9c0800000000000000
+      internalID: -3905324680743651700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1657037770a92d0800000000000000
+      internalID: -3271293970835742219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566983c8963920d10800000000000000
+      internalID: 2090395258586699365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85460d7c4041a0e90800000000000000
+      internalID: -7058807455185083304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_9
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2648e6c0e4d656620800000000000000
+      internalID: 2766737728072483938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_10
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41372f57e7930c40800000000000000
+      internalID: 5477388591802298699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_11
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e954315deb226b0800000000000000
+      internalID: -5322481987237863930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_12
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f75ef480760669c0800000000000000
+      internalID: -3934450144124184590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_13
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6851091a82d7b66a0800000000000000
+      internalID: -6454928027442735738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_14
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 36
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c725c5a692aa3aa0800000000000000
+      internalID: -6180448770702628925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_15
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ab742c9822066e0800000000000000
+      internalID: -1846437872156558823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_16
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c66248c09d312b0800000000000000
+      internalID: -5614905662620930981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_17
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 36
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0997817c051a58e0800000000000000
+      internalID: -1704026365817808626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 13
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a294126559f4b50800000000000000
+      internalID: 6579641777769753205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_19
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 13
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d404a018ab7c450800000000000000
+      internalID: 6109056482936900869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_20
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 13
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e01620acb8c2a20800000000000000
+      internalID: 3038957548307811869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19730579d66a447b0800000000000000
+      internalID: -5240881076732151919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_22
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b6c5caaab6d4dd0800000000000000
+      internalID: -2500223837340406910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_23
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 9
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bce587709bac8bf0800000000000000
+      internalID: -320692836481241928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_24
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 9
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879b95c8ff11bdf10800000000000000
+      internalID: 2295448224344422776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_25
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 9
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b964f99b186d270800000000000000
+      internalID: 8274943999581002518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 9
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aca899cc01513280800000000000000
+      internalID: -9065375459556414304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_27
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 11
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2167aa4debbf3c0800000000000000
+      internalID: -4324653196557020442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_28
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31a6e7c23700df30800000000000000
+      internalID: 4598183134228816189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_29
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 11
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b6ffedf939e3890800000000000000
+      internalID: -7476376016538080419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_30
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 11
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5719b66f2b79eff0800000000000000
+      internalID: -6338480947259553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_31
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 11
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d403fbce0757fcb00800000000000000
+      internalID: 851027982465052749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status parts 1 and 3_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 11
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae8e3af9c0806a10800000000000000
+      internalID: 1900660647725534892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      status parts 1 and 3_0: -1823887791598756795
+      status parts 1 and 3_1: 4625160616544020832
+      status parts 1 and 3_10: 5477388591802298699
+      status parts 1 and 3_11: -5322481987237863930
+      status parts 1 and 3_12: -3934450144124184590
+      status parts 1 and 3_13: -6454928027442735738
+      status parts 1 and 3_14: -6180448770702628925
+      status parts 1 and 3_15: -1846437872156558823
+      status parts 1 and 3_16: -5614905662620930981
+      status parts 1 and 3_17: -1704026365817808626
+      status parts 1 and 3_18: 6579641777769753205
+      status parts 1 and 3_19: 6109056482936900869
+      status parts 1 and 3_2: 524566413220498299
+      status parts 1 and 3_20: 3038957548307811869
+      status parts 1 and 3_21: -5240881076732151919
+      status parts 1 and 3_22: -2500223837340406910
+      status parts 1 and 3_23: -320692836481241928
+      status parts 1 and 3_24: 2295448224344422776
+      status parts 1 and 3_25: 8274943999581002518
+      status parts 1 and 3_26: -9065375459556414304
+      status parts 1 and 3_27: -4324653196557020442
+      status parts 1 and 3_28: 4598183134228816189
+      status parts 1 and 3_29: -7476376016538080419
+      status parts 1 and 3_3: -7732776324534732108
+      status parts 1 and 3_30: -6338480947259553
+      status parts 1 and 3_31: 851027982465052749
+      status parts 1 and 3_32: 1900660647725534892
+      status parts 1 and 3_4: -4189854480517155687
+      status parts 1 and 3_5: -3905324680743651700
+      status parts 1 and 3_6: -3271293970835742219
+      status parts 1 and 3_7: 2090395258586699365
+      status parts 1 and 3_8: -7058807455185083304
+      status parts 1 and 3_9: 2766737728072483938
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -189,7 +189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2621456569202734870, guid: 97d63eb4a2344c947be55753fabbbaa0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -762
+      value: -795
       objectReference: {fileID: 0}
     - target: {fileID: 2621456569202734870, guid: 97d63eb4a2344c947be55753fabbbaa0, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -211,6 +211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coverscroll
       objectReference: {fileID: 0}
+    - target: {fileID: 8006441973093202953, guid: 97d63eb4a2344c947be55753fabbbaa0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -221,6 +225,135 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2621456569202734870, guid: 97d63eb4a2344c947be55753fabbbaa0, type: 3}
   m_PrefabInstance: {fileID: 43531282}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &66367894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 66367896}
+  - component: {fileID: 66367895}
+  m_Layer: 0
+  m_Name: 01.) About characters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &66367895
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66367894}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 4390e8ee0e149724f8f2fdd56c9195d4, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4390e8ee0e149724f8f2fdd56c9195d4, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &66367896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 66367894}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2004, y: -7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &236978646
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,7 +388,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -788, y: 361}
+  m_AnchoredPosition: {x: -620, y: 361}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236978648
@@ -307,8 +440,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -345,7 +478,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 2.3832397, y: 0, z: -625.69434, w: -774.5938}
+  m_margin: {x: 2.3832397, y: 0, z: -387.88318, w: -774.5938}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -386,14 +519,14 @@ RectTransform:
   m_GameObject: {fileID: 377031837}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5127409, y: 3.9487865, z: 4.1026354}
+  m_LocalScale: {x: 2.909283, y: 3.0109496, z: 4.1026354}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 975659704}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 581, y: -32}
+  m_AnchoredPosition: {x: 417, y: -32}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377031839
@@ -416,7 +549,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7972725292565439576, guid: 8b54cbd2e2c86b54b887825e93ba1ea7, type: 3}
+  m_Sprite: {fileID: -2326477449772523620, guid: a430c18e50d9a4e479a14b8a503b9919, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -468,7 +601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -225.90002, y: -1.7000122}
+  m_AnchoredPosition: {x: -147.1, y: -1.7000122}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &577624723
@@ -518,8 +651,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -686,7 +819,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 660, y: -355.3}
+  m_AnchoredPosition: {x: 490.2, y: -355.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &774082544
@@ -733,9 +866,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 774082547}
-        m_TargetAssemblyTypeName: LoadLevel2, Assembly-CSharp
-        m_MethodName: loadlevel2
+      - m_Target: {fileID: 1914868997}
+        m_TargetAssemblyTypeName: InfoHandler, Assembly-CSharp
+        m_MethodName: next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -777,6 +910,7 @@ GameObject:
   - component: {fileID: 776587245}
   - component: {fileID: 776587244}
   - component: {fileID: 776587243}
+  - component: {fileID: 776587246}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -858,6 +992,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &776587246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776587242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &854985185
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,7 +1389,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 7.3}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1159468708
@@ -1350,7 +1528,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 428.9, y: -355.3}
+  m_AnchoredPosition: {x: 290.9, y: -355.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1202169571
@@ -1397,9 +1575,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1202169574}
-        m_TargetAssemblyTypeName: LoadLevel2, Assembly-CSharp
-        m_MethodName: loadlevel2
+      - m_Target: {fileID: 1914868997}
+        m_TargetAssemblyTypeName: InfoHandler, Assembly-CSharp
+        m_MethodName: previous
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1487,7 +1665,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xAB Back"
+  m_text: "\xAB Exit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ebd57e3bbc0fd14e885b36dbf8b0f48, type: 2}
   m_sharedMaterial: {fileID: -2628422624722131320, guid: 1ebd57e3bbc0fd14e885b36dbf8b0f48, type: 2}
@@ -1566,6 +1744,94 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263227720}
   m_CullTransparentMesh: 1
+--- !u!1 &1914868996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914868998}
+  - component: {fileID: 1914868997}
+  m_Layer: 0
+  m_Name: InfoHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1914868997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914868996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4eb87e73092d734397d6ddcee21ebba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoText:
+  - 31 years old. Blue hedgehog with the speed of light, and the hero of mobious.
+    Best friends with Tails and Knuckles. his parents were both killed when he was
+    at a very young age. His favorite sport is volleyball.
+  - 18 years old. Pink hedgehog with a giant sledge which she takes everywhere she
+    goes. She has a bad memory of her past except that she learned karate when she
+    was cream's age. She is friends with team Sonic, and is best friends with Cream.
+    When she was 4, she experienced an full-scaled invasion of soldiers in her safe
+    place in kiev and that caused her to escape that world and come to her current
+    safe place.
+  - 9 years old. She is very kind and she has a chao named cheese. Her dad has died
+    in the cold war of 1616 but her mom is still alive. She helped the refugee animals
+    who were imprisoned by the soldiers escape the war. She is part of team rose.
+  - 16 years old. Two tailed fox capable of inventing machines in technology.  He
+    is best friends with Sonic, Knuckles and the girls. his family was taken away
+    and executed. He is good at making medicine and cure, and he also likes mint
+    candy.
+  - 27 years old. never knew his parents and never saw them in the first place. he
+    belives that his duty is to protect the master emerald his whole life. He is
+    very close friend with Sonic and Tails. His favorite fruit is grapes And he does
+    boxing.
+  - 55 years old.  works in admin and is a doctor. got into football when he was
+    younger.  He made metal Sonic in 1993.
+  - Created in 1993. Metal Sonic can electrocute his target until it disappeares.
+  - '21 years old. The green hawk who can skate. Jett''s origin is not directly mentioned
+    before is that he created 4 braclets that lead to ancient pathways of the maze. '
+  - 61 years old. former admin of volleyball and a technologist. before 1561, he
+    himself played volleyball in a team before so that's how he became an volleyball
+    admin.
+  - This information is not for anyone to want to know..
+  images:
+  - {fileID: -2326477449772523620, guid: a430c18e50d9a4e479a14b8a503b9919, type: 3}
+  - {fileID: -1162833326653121123, guid: a430c18e50d9a4e479a14b8a503b9919, type: 3}
+  - {fileID: -5696378174844004066, guid: a430c18e50d9a4e479a14b8a503b9919, type: 3}
+  - {fileID: 4245648833172433147, guid: a430c18e50d9a4e479a14b8a503b9919, type: 3}
+  - {fileID: 5418896661607279962, guid: a430c18e50d9a4e479a14b8a503b9919, type: 3}
+  - {fileID: 1328012925900959723, guid: a430c18e50d9a4e479a14b8a503b9919, type: 3}
+  - {fileID: -5880330183765793994, guid: bd83f8d20eca543448fea4b1656d431f, type: 3}
+  - {fileID: -3052861832919445131, guid: edc55b43ec4f99e4495a499185d97f61, type: 3}
+  - {fileID: -3198976170666631869, guid: 5d1bc867f98477a41a43bf4c09a4a415, type: 3}
+  - {fileID: 5306077922142551669, guid: 81353e5a6aec5ee46a69089d1e3ffcef, type: 3}
+  Text: {fileID: 236978648}
+  ImageToChange: {fileID: 377031839}
+  Tracker: 0
+--- !u!4 &1914868998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914868996}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -582.52747, y: -176.20908, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2044976800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1600,7 +1866,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 197, y: -1.7000122}
+  m_AnchoredPosition: {x: 209.2, y: -4.1}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2044976802
@@ -1650,8 +1916,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1738,7 +2004,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -777, y: -361}
+  m_AnchoredPosition: {x: -536, y: -361}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2103227828
@@ -1825,3 +2091,5 @@ SceneRoots:
   - {fileID: 776587245}
   - {fileID: 975659704}
   - {fileID: 597799686}
+  - {fileID: 66367896}
+  - {fileID: 1914868998}

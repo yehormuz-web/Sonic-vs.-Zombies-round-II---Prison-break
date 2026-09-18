@@ -17,36 +17,42 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/About characters #1 (Sonic).unity
     guid: f5bd51e337fbe9847831035032cb5dd7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/About characters #2 (Amy).unity
     guid: 4fc27c2095189684db6cf835b8313a9a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/About characters #3 (Cream).unity
     guid: 06c0dd56ee4738c4bad54662b4eb36ef
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/About characters #4 (Tails).unity
     guid: 21860994c0cabfb469b4dc115f6d8362
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/About characters #5 (Knuckles).unity
     guid: 3fc7e5daaccd5894e91d4bdaf76a6bf2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/About characters #6 (Dr.Eggman).unity
     guid: 60c219b1e80cee544a73123a6ed4fdc6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/About characters #7 (Metal Sonic).unity
     guid: 0a3f79dfb3be5224a8d737123710346e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/About characters #8 (Jett).unity
     guid: 1754a979d49bae14cb737e25f4e47f7b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/About characters #9 (Modern Sonic).unity
     guid: 974c9172535d1ad4f984f5d9f691f6c5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/About characters #10 (Zombiefier).unity
     guid: 9e2e789a3e424bc42b7d4e39af72e492
   - enabled: 1
     path: Assets/Scenes/Scene 1.unity
     guid: bc43cfcfc72a9824985e5f9e0159394e
+  - enabled: 1
+    path: Assets/Scenes/Scene 2.unity
+    guid: 72110b9c63227f24fb3b0bfbabd8958c
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 8db9ab360de35884881deaeff8fa7048
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
