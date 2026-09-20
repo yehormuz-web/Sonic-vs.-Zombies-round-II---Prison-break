@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Cutscene exclusive",
+    "maps": [
+        {
+            "name": "NextDiaulog",
+            "id": "f1143d0b-55e4-4841-83be-0301d11d73c1",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "2f5229e5-b313-4acb-8d6c-82e5ae6f4eda",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "80a2dc05-fae5-44c0-a367-947fe522db23",
+                    "path": "<Keyboard>/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
