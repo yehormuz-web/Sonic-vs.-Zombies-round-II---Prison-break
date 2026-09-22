@@ -57,9 +57,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene 3.unity
     guid: 12c6876a020ba174482da3ce7556b4b0
   - enabled: 1
-    path: Assets/Scenes/Scene 4.unity
-    guid: b531982852755d045ae719731d87e292
-  - enabled: 1
     path: Assets/Scenes/Level 1.unity
     guid: 2aea607c607d89c48bbb87a5813652e3
   - enabled: 1
@@ -71,6 +68,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 5.unity
     guid: 3a8fadf5af920614eaede715a7ca1394
+  - enabled: 1
+    path: Assets/Scenes/Scene 4.unity
+    guid: b531982852755d045ae719731d87e292
+  - enabled: 1
+    path: Assets/Scenes/Scene 6.unity
+    guid: 76e828913eaa75b4f9e447c5dd322f48
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: 539e53c92c22fcd45b1093865c10b1c3
+  - enabled: 1
+    path: Assets/Scenes/Scene 7.unity
+    guid: 3e6d421bc18a66647b4d059da9c8123b
+  - enabled: 1
+    path: Assets/Scenes/Scene 8.unity
+    guid: fca1b4b2553f22849998307b213a166c
+  - enabled: 1
+    path: Assets/Scenes/Level 5 (Jett).unity
+    guid: cb29309f8f505a84b881f8e8e4cd9011
+  - enabled: 1
+    path: Assets/Scenes/Level 5 (Modern Sonic).unity
+    guid: 6a293cdfaa34c144da309f11d0d057a6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
