@@ -2048,6 +2048,7 @@ GameObject:
   - component: {fileID: 1378889067}
   - component: {fileID: 1378889069}
   - component: {fileID: 1378889068}
+  - component: {fileID: 1378889070}
   m_Layer: 5
   m_Name: Modern Sonic route
   m_TagString: Untagged
@@ -2118,7 +2119,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1378889070}
+        m_TargetAssemblyTypeName: LoadLevel2, Assembly-CSharp
+        m_MethodName: loadlevel2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &1378889069
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2127,6 +2140,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1378889066}
   m_CullTransparentMesh: 1
+--- !u!114 &1378889070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378889066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf826124e1ade5488b8c60697c3faae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leveltoload: Level 5 (Modern Sonic)
 --- !u!1 &1396690603
 GameObject:
   m_ObjectHideFlags: 0
@@ -2236,6 +2262,7 @@ GameObject:
   - component: {fileID: 1508557574}
   - component: {fileID: 1508557576}
   - component: {fileID: 1508557575}
+  - component: {fileID: 1508557577}
   m_Layer: 5
   m_Name: Jett route
   m_TagString: Untagged
@@ -2306,7 +2333,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1508557577}
+        m_TargetAssemblyTypeName: LoadLevel2, Assembly-CSharp
+        m_MethodName: loadlevel2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &1508557576
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2315,6 +2354,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508557573}
   m_CullTransparentMesh: 1
+--- !u!114 &1508557577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508557573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf826124e1ade5488b8c60697c3faae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leveltoload: Level 5 (Jett)
 --- !u!1 &1521901785
 GameObject:
   m_ObjectHideFlags: 0
