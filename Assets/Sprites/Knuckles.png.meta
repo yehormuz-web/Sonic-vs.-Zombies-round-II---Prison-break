@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0eaf4f826bf674e46a3957e0d256f8af
+guid: 159e407048a2ada4695bb59ee8874c46
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2454134411449364721
-    second: Sonic vs. Zombies - round 2 (5)_0
+      213: -6524093006814640201
+    second: Knuckles_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sonic vs. Zombies - round 2 (5)_0
+      name: Knuckles_0
       rect:
         serializedVersion: 2
         x: 23
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0f8f7e51c921fdd0800000000000000
-      internalID: -2454134411449364721
+      spriteID: 7b70437f9f3c575a0800000000000000
+      internalID: -6524093006814640201
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sonic vs. Zombies - round 2 (5)_0: -2454134411449364721
+      Knuckles_0: -6524093006814640201
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

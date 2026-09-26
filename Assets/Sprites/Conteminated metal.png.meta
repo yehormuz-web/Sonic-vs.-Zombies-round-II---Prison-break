@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1db8bf43105c25d4fbe7875330d8bf52
+guid: 19f78d1a2209f8943bdd88abe5bec8c6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4749059277659246440
-    second: Sonic vs. Zombies - round 2 (6)_0
+      213: -8917402188699695841
+    second: Conteminated metal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sonic vs. Zombies - round 2 (6)_0
+      name: Conteminated metal_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 396
-        height: 648
+        x: 17
+        y: 33
+        width: 314
+        height: 470
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86f072e504c08e140800000000000000
-      internalID: 4749059277659246440
+      spriteID: f15834fa4f50f3480800000000000000
+      internalID: -8917402188699695841
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sonic vs. Zombies - round 2 (6)_0: 4749059277659246440
+      Conteminated metal_0: -8917402188699695841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
