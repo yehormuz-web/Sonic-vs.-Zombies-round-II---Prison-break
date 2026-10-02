@@ -436,6 +436,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1838633230}
     m_Modifications:
+    - target: {fileID: 5696150930404516083, guid: 1521daf11297d4241a08afc891393a3a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6665117131141766552, guid: 1521daf11297d4241a08afc891393a3a, type: 3}
       propertyPath: m_Name
       value: Sonic
@@ -1020,7 +1024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5569771666832583194, guid: 5674d7fe401d13f4485c5793533d60d1, type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7126912928476933082, guid: 5674d7fe401d13f4485c5793533d60d1, type: 3}
       propertyPath: m_LocalScale.x
@@ -1189,7 +1193,7 @@ Transform:
   m_GameObject: {fileID: 623347144}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12, y: 3, z: 0}
+  m_LocalPosition: {x: 12, y: 3, z: 393}
   m_LocalScale: {x: 111.503876, y: 114.64484, z: 125.638176}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1238,7 +1242,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7705961786908328622, guid: f5ef994640587bb4589f020855ce3558, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1446,6 +1450,10 @@ PrefabInstance:
     - target: {fileID: 253866306478738895, guid: 9a6ce87e14bac2542a77de944de39116, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 369826039376910686, guid: 9a6ce87e14bac2542a77de944de39116, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6966473878434096894, guid: 9a6ce87e14bac2542a77de944de39116, type: 3}
       propertyPath: m_Name
@@ -1911,6 +1919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Knuckles
       objectReference: {fileID: 0}
+    - target: {fileID: 6065612430838666531, guid: be8186414793baf478c282bdaa65629a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1984,6 +1996,10 @@ PrefabInstance:
     - target: {fileID: 906178258067377712, guid: 022cb4b1eaf9d084facbd3024b64a915, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167353553229196373, guid: 022cb4b1eaf9d084facbd3024b64a915, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2186,6 +2202,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5905263234439406025, guid: bcc0c6ca2fdc47f4fa1c6a5b4b09ed03, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6303511239969014458, guid: bcc0c6ca2fdc47f4fa1c6a5b4b09ed03, type: 3}
       propertyPath: m_Name
       value: Jett
@@ -2259,6 +2279,10 @@ PrefabInstance:
     - target: {fileID: 8365129189707403, guid: 5aca5a897fac25f42849212583fd769f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2552424222787415080, guid: 5aca5a897fac25f42849212583fd769f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 9009168795437933591, guid: 5aca5a897fac25f42849212583fd769f, type: 3}
       propertyPath: m_Name
@@ -2950,7 +2974,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daf826124e1ade5488b8c60697c3faae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leveltoload: Level 10
+  leveltoload: Level 6
 --- !u!114 &2054044904
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3765189220568970895}
   - component: {fileID: 8662589054731969855}
   - component: {fileID: 7174438021701434221}
+  - component: {fileID: 8331176480235163097}
   m_Layer: 0
   m_Name: Jett
   m_TagString: Untagged
@@ -171,3 +172,26 @@ MonoBehaviour:
     m_Bits: 8
   movementSpeed: 12
   JumpForce: 6
+  raycastDistance: 3
+--- !u!95 &8331176480235163097
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6303511239969014458}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 059ff33be3462894da220342d4b7a6a3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
