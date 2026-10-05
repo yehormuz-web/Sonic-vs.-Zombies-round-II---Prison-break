@@ -87,9 +87,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 5 (Jett).unity
     guid: cb29309f8f505a84b881f8e8e4cd9011
   - enabled: 1
-    path: Assets/Scenes/Level 5 (Modern Sonic).unity
-    guid: 6a293cdfaa34c144da309f11d0d057a6
-  - enabled: 1
     path: Assets/Scenes/Scene 9.unity
     guid: 9aaa449dda9749e4ea5547351922b50c
   m_configObjects:
