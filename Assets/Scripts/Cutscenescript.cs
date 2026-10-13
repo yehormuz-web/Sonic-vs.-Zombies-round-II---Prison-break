@@ -7,7 +7,7 @@ public class Cutscenescript : MonoBehaviour
     public Cutsceneexclusive cutscenecontrols;
     public PlayableDirector director;
     private InputAction skipbutton;
-    
+
     public void pausetimeline()
     {
         director.Pause();
@@ -20,12 +20,15 @@ public class Cutscenescript : MonoBehaviour
     {
         skipbutton = cutscenecontrols.NextDiaulog.Newaction;
         skipbutton.Enable();
-        skipbutton.performed+=nextDiaulog;
+        skipbutton.performed += nextDiaulog;
     }
-    private void nextDiaulog(InputAction.CallbackContext callback) 
+    private void nextDiaulog(InputAction.CallbackContext callback)
     {
-        director.Play();
-        Debug.Log("buttonpress");        
+        if (director.time != 0)
+        {
+            director.Play();
+        }
+        Debug.Log("buttonpress");
     }
     private void Update()
     {
