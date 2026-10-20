@@ -155,6 +155,7 @@ MonoBehaviour:
     m_Signals:
     - {fileID: 11400000, guid: a5a0f4d31d78d26458fe8101b2960995, type: 2}
     - {fileID: 11400000, guid: c6416f64efe45914bb2d56e2f352fb3e, type: 2}
+    - {fileID: 11400000, guid: 9d6d5daf87ad36741a1054ad1d07a566, type: 2}
     m_Events:
     - m_PersistentCalls:
         m_Calls:
@@ -184,6 +185,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 108562863}
+          m_TargetAssemblyTypeName: Cutscenescript, Assembly-CSharp
+          m_MethodName: pausetimeline
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
         - m_Target: {fileID: 108562863}
           m_TargetAssemblyTypeName: Cutscenescript, Assembly-CSharp
           m_MethodName: pausetimeline
@@ -239,6 +254,18 @@ PlayableDirector:
     value: {fileID: 1115939648}
   - key: {fileID: 4629256380098152299, guid: 0f5e5c3e55a29b34782a735ebefc6b49, type: 2}
     value: {fileID: 2015952124}
+  - key: {fileID: -3287257540724748420, guid: 0f5e5c3e55a29b34782a735ebefc6b49, type: 2}
+    value: {fileID: 764553548}
+  - key: {fileID: 5587774327787606714, guid: 0f5e5c3e55a29b34782a735ebefc6b49, type: 2}
+    value: {fileID: 608267792}
+  - key: {fileID: -44060387869019236, guid: 0f5e5c3e55a29b34782a735ebefc6b49, type: 2}
+    value: {fileID: 2030377875}
+  - key: {fileID: 7398501384774963586, guid: 0f5e5c3e55a29b34782a735ebefc6b49, type: 2}
+    value: {fileID: 218513149}
+  - key: {fileID: -8132715660534493611, guid: 0f5e5c3e55a29b34782a735ebefc6b49, type: 2}
+    value: {fileID: 1684583581}
+  - key: {fileID: 2509139217627171447, guid: 0f5e5c3e55a29b34782a735ebefc6b49, type: 2}
+    value: {fileID: 1115939648}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &108562862
@@ -668,8 +695,8 @@ RectTransform:
   - {fileID: 1684583582}
   - {fileID: 1115939649}
   - {fileID: 671180420}
-  - {fileID: 2015952125}
   - {fileID: 1172739289}
+  - {fileID: 2015952125}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1258,7 +1285,7 @@ RectTransform:
   m_GameObject: {fileID: 1070970248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 44.861485, y: 12.445268, z: 4.9286237}
+  m_LocalScale: {x: 47.239143, y: 13.104867, z: 5.189841}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 485644278}
@@ -2673,7 +2700,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 429.75647, y: 408.04205}
+  m_AnchoredPosition: {x: 647.75476, y: 331}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2015952126
