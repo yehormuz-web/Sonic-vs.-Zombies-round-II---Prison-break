@@ -220,6 +220,10 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2552424222787415080, guid: 5aca5a897fac25f42849212583fd769f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9009168795437933591, guid: 5aca5a897fac25f42849212583fd769f, type: 3}
       propertyPath: m_Name
       value: Cream
@@ -874,7 +878,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -3052861832919445131, guid: edc55b43ec4f99e4495a499185d97f61, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1066,7 +1070,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -4235258980337992868, guid: f2194e33c5c996e46a2c96853bfe7827, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1586,6 +1590,10 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2552424222787415080, guid: 5aca5a897fac25f42849212583fd769f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 9009168795437933591, guid: 5aca5a897fac25f42849212583fd769f, type: 3}
       propertyPath: m_Name
       value: Cream?
@@ -1704,6 +1712,10 @@ PrefabInstance:
     - target: {fileID: 369826039376910686, guid: 9a6ce87e14bac2542a77de944de39116, type: 3}
       propertyPath: m_Color.a
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 369826039376910686, guid: 9a6ce87e14bac2542a77de944de39116, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6966473878434096894, guid: 9a6ce87e14bac2542a77de944de39116, type: 3}
       propertyPath: m_Name
@@ -2212,6 +2224,10 @@ PrefabInstance:
     - target: {fileID: 369826039376910686, guid: 9a6ce87e14bac2542a77de944de39116, type: 3}
       propertyPath: m_Color.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 369826039376910686, guid: 9a6ce87e14bac2542a77de944de39116, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6966473878434096894, guid: 9a6ce87e14bac2542a77de944de39116, type: 3}
       propertyPath: m_Name
