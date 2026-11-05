@@ -1056,7 +1056,7 @@ MonoBehaviour:
     m_Start: 30.116666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 9160701358131568454}
-    m_Duration: 37.570833333332494
+    m_Duration: 48.852083333332
     m_TimeScale: 1
     m_ParentTrack: {fileID: -5334288205335526165}
     m_EaseInDuration: 0
@@ -2024,7 +2024,6 @@ MonoBehaviour:
   - {fileID: 3448561551819981230}
   - {fileID: -5669461712756546718}
   - {fileID: -1015338283778467552}
-  - {fileID: 2569618118979408629}
   - {fileID: 6165696849545908189}
   - {fileID: -6590641050674009553}
   - {fileID: 3153893907423353631}
@@ -2032,15 +2031,16 @@ MonoBehaviour:
   - {fileID: 6277951152661076563}
   - {fileID: 7600883661083789887}
   - {fileID: 6613973318219975348}
-  - {fileID: -7530956771981518699}
   - {fileID: 8021483672073753988}
+  - {fileID: 7292766984852024246}
   - {fileID: -2467306519565598868}
   - {fileID: -2104737461586081057}
   - {fileID: -5334288205335526165}
   - {fileID: 2080547993912427303}
-  - {fileID: 7292766984852024246}
   - {fileID: 9093418315969500481}
   - {fileID: 2980416543162398190}
+  - {fileID: 2569618118979408629}
+  - {fileID: -7530956771981518699}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -2142,7 +2142,7 @@ MonoBehaviour:
     m_Start: 45.124999999999666
     m_ClipIn: 0
     m_Asset: {fileID: 9183603197058377016}
-    m_Duration: 22.5624999999995
+    m_Duration: 33.843749999999
     m_TimeScale: 1
     m_ParentTrack: {fileID: 2080547993912427303}
     m_EaseInDuration: 0

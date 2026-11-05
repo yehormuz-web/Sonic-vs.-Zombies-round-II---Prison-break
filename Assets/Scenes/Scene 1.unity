@@ -187,8 +187,8 @@ Canvas:
   m_GameObject: {fileID: 18505010}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 40573344}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -533,7 +533,7 @@ RectTransform:
   m_GameObject: {fileID: 568923166}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 19.811451, y: 11.24054, z: 11.24054}
+  m_LocalScale: {x: 21.562784, y: 12.234203, z: 12.234203}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 18505014}
@@ -1113,14 +1113,14 @@ RectTransform:
   m_GameObject: {fileID: 1370343639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 26.296875, y: 12.375, z: 12.375}
+  m_LocalScale: {x: 30.48071, y: 14.3438635, z: 14.3438635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 18505014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -104.4483, y: -21}
+  m_AnchoredPosition: {x: -104.45, y: -21}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1370343641
@@ -1716,6 +1716,63 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &6143593422323993939
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6051177415154118709, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051177415154118709, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051177415154118709, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051177415154118709, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051177415154118709, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051177415154118709, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051177415154118709, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051177415154118709, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051177415154118709, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6051177415154118709, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8927561552741210601, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
+      propertyPath: m_Name
+      value: Snowfall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e4783bde78c07a4fad0373bb8b611d0, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1726,3 +1783,4 @@ SceneRoots:
   - {fileID: 763692235}
   - {fileID: 1058134534}
   - {fileID: 1636960834}
+  - {fileID: 6143593422323993939}

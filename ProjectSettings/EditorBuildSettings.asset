@@ -122,6 +122,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 20.unity
     guid: 5530e3789da3ba645b39d1efb9a8d423
+  - enabled: 1
+    path: Assets/Scenes/Level 5 (Modern Sonic).unity
+    guid: c73c01a66cd034e45ab90f577c198b5d
+  - enabled: 1
+    path: Assets/Scenes/Level 9.unity
+    guid: 2c192d7c2b2c3884abc8dcad39fac51c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
