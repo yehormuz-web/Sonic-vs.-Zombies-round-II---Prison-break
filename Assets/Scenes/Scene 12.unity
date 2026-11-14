@@ -1144,8 +1144,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Zombiefier \u2014 Well, let\u2019s see how you will handle your memory
-    lane.."
+  m_text: "Zombiefier \u2014 Well, let\u2019s see how you will handle being in the
+    blood heli base.."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ebd57e3bbc0fd14e885b36dbf8b0f48, type: 2}
   m_sharedMaterial: {fileID: -2628422624722131320, guid: 1ebd57e3bbc0fd14e885b36dbf8b0f48, type: 2}
@@ -1678,7 +1678,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 1635efe5332bc96428a7cc2b01965631, type: 3}
   m_Resource: {fileID: 8300000, guid: 1635efe5332bc96428a7cc2b01965631, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.494
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1883,6 +1883,7 @@ RectTransform:
   - {fileID: 1218129921}
   - {fileID: 1997946612}
   - {fileID: 1049775140}
+  - {fileID: 1037092466}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2040,6 +2041,104 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032971547}
   m_CullTransparentMesh: 1
+--- !u!1 &1037092465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037092466}
+  - component: {fileID: 1037092468}
+  - component: {fileID: 1037092467}
+  - component: {fileID: 1037092469}
+  m_Layer: 5
+  m_Name: Screen red fadeout
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1037092466
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037092465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 29.430376, y: 15.799, z: 15.799}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 877488250}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -36, y: 20}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1037092467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037092465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0.22008038, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1037092468
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037092465}
+  m_CullTransparentMesh: 1
+--- !u!95 &1037092469
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037092465}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1049775139
 GameObject:
   m_ObjectHideFlags: 0
@@ -2688,6 +2787,8 @@ GameObject:
   - component: {fileID: 1614775187}
   - component: {fileID: 1614775186}
   - component: {fileID: 1614775188}
+  - component: {fileID: 1614775189}
+  - component: {fileID: 1614775190}
   m_Layer: 0
   m_Name: Pre-final fight director
   m_TagString: Untagged
@@ -2736,6 +2837,8 @@ PlayableDirector:
     value: {fileID: 205614975}
   - key: {fileID: -648659277758544047, guid: d03c52a839912174f9d4efa148f8d804, type: 2}
     value: {fileID: 1614775188}
+  - key: {fileID: -3391069145329300549, guid: d03c52a839912174f9d4efa148f8d804, type: 2}
+    value: {fileID: 1037092469}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1614775187
@@ -2766,8 +2869,64 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Events:
-    m_Signals: []
-    m_Events: []
+    m_Signals:
+    - {fileID: 11400000, guid: 9d6d5daf87ad36741a1054ad1d07a566, type: 2}
+    - {fileID: 11400000, guid: a5a0f4d31d78d26458fe8101b2960995, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1614775189}
+          m_TargetAssemblyTypeName: LoadLevel2, Assembly-CSharp
+          m_MethodName: loadlevel2
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1614775190}
+          m_TargetAssemblyTypeName: Cutscenescript, Assembly-CSharp
+          m_MethodName: pausetimeline
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &1614775189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614775185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf826124e1ade5488b8c60697c3faae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leveltoload: Scene 13
+--- !u!114 &1614775190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614775185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3c841aaff27ffa40bb9fa4450a83003, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  director: {fileID: 1614775186}
 --- !u!1 &1624633616
 GameObject:
   m_ObjectHideFlags: 0

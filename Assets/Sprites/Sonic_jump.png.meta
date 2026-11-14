@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d35f4fc489f3f3641a4ea1c4c898961a
+guid: 01763024da446444e8bea6c993737c26
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7876546099001694889
-    second: Cream's infected copy_0
+      213: 1713273184130937754
+    second: Sonic_jump_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cream's infected copy_0
+      name: Sonic_jump_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 288
-        height: 384
+        width: 30
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 755e3000e03e0b290800000000000000
-      internalID: -7876546099001694889
+      spriteID: a93b35732e4c6c710800000000000000
+      internalID: 1713273184130937754
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Cream's infected copy_0: -7876546099001694889
+      Sonic_jump_0: 1713273184130937754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

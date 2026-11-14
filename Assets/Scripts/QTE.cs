@@ -36,4 +36,12 @@ public class QTE : MonoBehaviour
         success_director.Play();
         timer = -1;
     }
+
+    public void stoptimer() 
+    {
+        timer = -1; 
+        Original_TimeLine.Play();
+
+    }
+
 }

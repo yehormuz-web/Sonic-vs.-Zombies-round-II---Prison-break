@@ -571,6 +571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 257615237}
   - component: {fileID: 257615238}
+  - component: {fileID: 257615239}
   m_Layer: 0
   m_Name: A syringe_0
   m_TagString: Untagged
@@ -586,13 +587,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257615236}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.9639038, w: 0.2662509}
-  m_LocalPosition: {x: 0.048984937, y: -0.10795874, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.054, y: -0.10795874, z: 0}
   m_LocalScale: {x: 0.020958003, y: 0.020958003, z: 0.020957997}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1089025278}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -149.117}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &257615238
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -636,7 +637,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 4
   m_Sprite: {fileID: 1307554326498493233, guid: 8d63aa6c57cd4e742a9a02d9d679a8f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -648,6 +649,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &257615239
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257615236}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &321423400
 GameObject:
   m_ObjectHideFlags: 0
@@ -2832,6 +2855,8 @@ PlayableDirector:
     value: {fileID: 1014602784}
   - key: {fileID: 6212794738998402255, guid: 2bdcb85a7faaed840a47c255cbcfeb08, type: 2}
     value: {fileID: 1262437689}
+  - key: {fileID: 457400339205449580, guid: 2bdcb85a7faaed840a47c255cbcfeb08, type: 2}
+    value: {fileID: 257615239}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1279296721
