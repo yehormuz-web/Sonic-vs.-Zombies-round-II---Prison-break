@@ -1670,7 +1670,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Knuckles? \u2014 We did not makie it out uninfected, Modern! And it looks
+  m_text: "Knuckles? \u2014 We did not make it out uninfected, Modern! And it looks
     like you won't either.."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1ebd57e3bbc0fd14e885b36dbf8b0f48, type: 2}
