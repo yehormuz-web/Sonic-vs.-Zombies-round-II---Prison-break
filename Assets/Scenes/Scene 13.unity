@@ -3354,6 +3354,14 @@ PrefabInstance:
       propertyPath: JumpForce
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 1595523484922501095, guid: 9a4d62607aeab1b449052528348c8013, type: 3}
+      propertyPath: ground.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3445330308956787695, guid: 9a4d62607aeab1b449052528348c8013, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6221890562468147902, guid: 9a4d62607aeab1b449052528348c8013, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.27
@@ -3392,6 +3400,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6221890562468147902, guid: 9a4d62607aeab1b449052528348c8013, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8418742810101188589, guid: 9a4d62607aeab1b449052528348c8013, type: 3}
+      propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
