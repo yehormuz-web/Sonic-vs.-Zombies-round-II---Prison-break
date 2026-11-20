@@ -13,11 +13,7 @@ public class Infection_ring_throw : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player") {
-            UnitedLifeHandler.Life -= 1;
-            if (UnitedLifeHandler.Life == 0)
                 SceneManager.LoadScene("Main Menu");
-            else 
-                SceneManager.LoadScene("Stage 48");
      }
     }
     void Update()

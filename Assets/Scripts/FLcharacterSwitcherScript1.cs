@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class FLcharacterSwitcherScript : MonoBehaviour
 {
     public GameObject[] Characters;
-    public KeyCode[] keyCodes;
+    public Key[] keyCodes;
     public GameObject PreviousCharacter;
 
     void Start()
@@ -16,7 +17,7 @@ public class FLcharacterSwitcherScript : MonoBehaviour
     {
         for (int i = 0; i < Characters.Length; i++)
         {
-            if (Input.GetKeyDown(keyCodes[i]) )
+            if (Keyboard.current[keyCodes[i]].wasPressedThisFrame )
             {
                 
                 foreach (GameObject character in Characters) { 

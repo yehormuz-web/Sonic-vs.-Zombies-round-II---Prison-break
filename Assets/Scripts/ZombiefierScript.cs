@@ -1,5 +1,6 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using TMPro;
 
 public class ZombiefierScript : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class ZombiefierScript : MonoBehaviour
     public Sprite SpriteLoopToOriginal;
 
     public int health;
+    public TextMeshProUGUI lifetext;
     void Start()
     {
         
@@ -60,9 +62,22 @@ public class ZombiefierScript : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            health -= 1;
+            lifetext.text=health.ToString();
+            if (health == 0)
+            {
+                die();
+            }
+        }
+    }
+
     public void die()
     {
         Debug.Log("zombifier died");
-        SceneManager.LoadScene("Stage 49");
+        SceneManager.LoadScene("Stage 14");
     }
 }
